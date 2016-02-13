@@ -1,0 +1,29 @@
+{
+  "name": "react-svg-use",
+  "version": "1.0.0",
+  "description": "Use SVG sprites in React.js",
+  "main": "src/react-svg-use.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahrengot/react-svg-use.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "svg",
+    "ui",
+    "component"
+  ],
+  "author": "Jens Ahrengot Boddum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahrengot/react-svg-use/issues"
+  },
+  "homepage": "https://github.com/Ahrengot/react-svg-use#readme",
+  "devDependencies": {
+  	"react": ">=0.14.3",
+  }
+}
