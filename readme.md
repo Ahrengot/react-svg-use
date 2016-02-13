@@ -1,4 +1,4 @@
-# Enable <use xlink:href="#icon-name" /> in React.js
+# Enable `<use xlink:href="#icon-name" />` in React.js
 
 [SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported SVG attribute. This component works around that limitation.
 
