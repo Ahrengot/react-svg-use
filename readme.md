@@ -2,6 +2,9 @@
 
 [SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported SVG attribute. This component works around that limitation.
 
+## Installation
+`npm i react-svg-use -S`
+
 ## How do I ... use it?
 First, set up your SVG sprite sheet so you have something simmilar to this:
 
