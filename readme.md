@@ -1,25 +1,25 @@
 # Enable <use xlink:href="#icon-name" /> in React.js
 
-[SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported svg attribute. This component works around that limitation.
+[SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported SVG attribute. This component works around that limitation.
 
 ## How do I use it?
 First, set up your SVG sprite sheet so you have something simmilar to this:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
-  <symbol id="car" viewBox="0 0 100 100">
+  <symbol id="car">
     <path d="..."/>
   </symbol>
-  <symbol id="bike" viewBox="0 0 50 50">
+  <symbol id="bike">
     <path d="..."/>
   </symbol>
-  <symbol id="skateboard" viewBox="0 0 150 100">
+  <symbol id="skateboard">
     <path d="..."/>
   </symbol>
 </svg>
 ```
 
-Then simply import and use the icon where you need it
+Then, simply import and use the icon where you need it
 
 ```JavaScript
 import Icon from 'react-svg-use'
@@ -33,7 +33,7 @@ React.createClass({
 })
 ```
 
-The above snippet generates markup looking like this. Any additional `props` passed to the component will be added to the wrapping svg element. For instance `className`, `id` ect.
+The above snippet generates markup looking like this. Any additional `props` passed to the component will be added to the wrapping SVG element. For instance `className`, `id` etc.
 
 ```html
 <svg>
