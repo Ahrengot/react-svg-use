@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Ahrengot/react-svg-use#readme",
   "devDependencies": {
-  	"react": ">=0.14.3",
+  	"react": ">=0.14.3"
   }
 }
