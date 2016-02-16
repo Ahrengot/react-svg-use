@@ -1,7 +1,5 @@
-[![npm version](https://badge.fury.io/js/react-svg-use.svg)](https://badge.fury.io/js/react-svg-use)
-
+[![npm version](https://badge.fury.io/js/react-svg-use.svg)](https://badge.fury.io/js/react-svg-use) 
 [![Dependency Status](https://david-dm.org/ahrengot/react-svg-use.svg)](https://david-dm.org/ahrengot/react-svg-use)
-
 [![devDependency Status](https://david-dm.org/ahrengot/react-svg-use/dev-status.svg)](https://david-dm.org/ahrengot/react-svg-use#info=devDependencies)
 
 # Enable SVG `<use />` in React.js
