@@ -12,7 +12,7 @@
 `npm i react-svg-use -S`
 
 ## How do I ... use it?
-First, set up your SVG sprite sheet so you have something simmilar to this:
+First, set up your SVG sprite sheet so you have something similar to this:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
