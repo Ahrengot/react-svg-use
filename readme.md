@@ -1,5 +1,9 @@
 [![npm version](https://badge.fury.io/js/react-svg-use.svg)](https://badge.fury.io/js/react-svg-use)
 
+[![Dependency Status](https://david-dm.org/ahrengot/react-svg-use.svg)](https://david-dm.org/ahrengot/react-svg-use)
+
+[![devDependency Status](https://david-dm.org/ahrengot/react-svg-use/dev-status.svg)](https://david-dm.org/ahrengot/react-svg-use#info=devDependencies)
+
 # Enable SVG `<use />` in React.js
 
 [SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported SVG attribute. This component works around that limitation.
