@@ -1,16 +1,16 @@
 [![npm version](https://badge.fury.io/js/react-svg-use.svg)](https://badge.fury.io/js/react-svg-use)
 
-# Enable SVG `<use />` in React.js
+# SVG `<Use />` React.js Component
 
-[SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/), but they don't work out of the box with React.js, because `xlink:href` is not a standardly-supported SVG attribute. This component works around that limitation.
+[SVG sprites are awesome](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)! This component saves you the time building and maintaining your own `<Use />` react component within your React.js projects.
 
 ## Installation
 `npm i react-svg-use -S`
 
 ## How do I ... use it?
-First, set up your SVG sprite sheet so you have something simmilar to this:
+First, set up your SVG sprite sheet so you have something similar to this:
 
-```xml
+```html
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
   <symbol id="car">
     <path d="..."/>
@@ -26,13 +26,17 @@ First, set up your SVG sprite sheet so you have something simmilar to this:
 
 Then, simply import and use the icon where you need it
 
-```JavaScript
+```javaScript
 import Icon from 'react-svg-use'
 
 React.createClass({
   render() {
     return (
-      <Icon id='car' color='#D71421' />
+      <Icon
+        xlink='car'
+        fillColor='#D71421'
+        className='car-icon'
+      />
     )
   }
 })
@@ -41,7 +45,7 @@ React.createClass({
 The above snippet generates markup looking like this. Any additional `props` passed to the component will be added to the wrapping SVG element. For instance `className`, `id` etc.
 
 ```html
-<svg>
+<svg class="car-icon">
   <use xlink:href="#car" style="fill:#D71421;"></use>
 </svg>
 ```
