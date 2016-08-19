@@ -1,3 +1,4 @@
+import React from 'react';
 import DOMProperty from 'react/lib/DOMProperty';
 
 // xlink:href is not a standardly-supported svg attribute, but you can tell
