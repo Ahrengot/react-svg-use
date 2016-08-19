@@ -1,6 +1,6 @@
 {
   "name": "react-svg-use",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use SVG sprites in React.js",
   "main": "react-svg-use.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Ahrengot/react-svg-use#readme",
   "dependencies": {
-  	"react": ">=0.14.3"
+    "react": ">=0.14.3"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
