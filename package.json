@@ -4,9 +4,11 @@
   "description": "Use SVG sprites in React.js",
   "main": "react-svg-use.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
     "build": "babel src --out-dir .",
-    "prepublish": "npm run build"
+    "test": "jest"
+  },
+  "jest": {
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
+    "babel-jest": "^17.0.2",
     "babel-preset-es2015": "^6.1.18",
-    "babel-preset-react": "^6.1.18"
+    "babel-preset-react": "^6.1.18",
+    "jest": "^17.0.3",
+    "react-test-renderer": "^15.4.1"
   }
 }

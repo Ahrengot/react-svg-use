@@ -1,0 +1,11 @@
+exports[`Component <Icon /> renders correctly 1`] = `
+<svg>
+  <use
+    style={
+      Object {
+        "fill": "#fff",
+      }
+    }
+    xlinkHref="#my-icon" />
+</svg>
+`;
