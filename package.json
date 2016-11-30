@@ -1,6 +1,6 @@
 {
   "name": "react-svg-use",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Use SVG sprites in React.js",
   "main": "react-svg-use.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "build": "babel src --out-dir .",
     "test": "jest"
   },
-  "jest": {
-  },
+  "jest": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ahrengot/react-svg-use.git"
